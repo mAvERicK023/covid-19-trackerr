@@ -10,7 +10,7 @@ import {
 import InfoBox from "./InfoBox";
 import LineGraph from "./LineGraph";
 import Table from "./Table";
-import { sortData, prettyPrintStat } from "./util";
+ import { sortData, prettyPrintStat } from "./util";
 import numeral from "numeral";
 import Map from "./Map";
 import "leaflet/dist/leaflet.css";
@@ -136,3 +136,4 @@ const App = () => {
 };
 
 export default App;
+
